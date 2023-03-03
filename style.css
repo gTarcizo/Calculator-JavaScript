@@ -24,7 +24,7 @@ header h1 {
     height: 570px;
     width: 600px;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 25px;
     box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.068);
 }
 
