@@ -21,7 +21,7 @@ header h1 {
 
 #calculator{
     background-color: #0d1117;
-    height: 570px;
+    height: 580px;
     width: 600px;
     margin: auto;
     border-radius: 25px;
@@ -130,6 +130,10 @@ header h1 {
     transform:translate(-50%, -50%);
   }
   
+  .button-equals{
+    display: flex;
+    justify-content: center;
+  }
   
   @keyframes slide {
     0% {

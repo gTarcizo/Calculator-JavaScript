@@ -18,7 +18,7 @@
         <div id="display">
             <input type="text" disabled id="inputDisplay">
         </div>
-        <div class="teste">
+        <div>
             <div id="numbers">
                 <button class="button" role="button" onclick="buttonSelect('1');">1</button>
                 <button class="button" role="button" onclick="buttonSelect('2');" >2</button>
@@ -37,9 +37,12 @@
                 <button class="button" role="button" onclick="buttonSelect('/');">➗</button>
                 <button class="button" role="button" onclick="buttonSelect('*');">✖️</button>
                 <button class="button" role="button" onclick="buttonSelect('+');">➕</button>
+                <button class="button" onclick="buttonSelect('.')">.</button>
                 <button class="button" role="button" onclick="buttonSelect('-');">➖</button>
-                <button class="button" onclick="equals()">🤔❔</button>
                 <button class="button" onclick="deleteLast()">⬅</button>
+            </div>
+            <div class="button-equals">
+                <button class="button" onclick="equals()">🤔❔</button>
             </div>
         </div>
     </div>
